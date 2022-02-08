@@ -3,6 +3,7 @@ module github.com/openshift/osde2e
 go 1.16
 
 require (
+	cloud.google.com/go/iam v0.1.1 // indirect
 	cloud.google.com/go/kms v1.1.0
 	github.com/Masterminds/semver v1.5.0
 	github.com/PagerDuty/go-pagerduty v1.4.1
@@ -68,8 +69,8 @@ require (
 	github.com/vmware-tanzu/velero v1.5.0-beta.1.0.20200831161009-1dcaa1bf7512
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
 	golang.org/x/tools v0.1.5
-	google.golang.org/api v0.58.0
-	google.golang.org/genproto v0.0.0-20211018162055-cf77aa76bad2
+	google.golang.org/api v0.68.0
+	google.golang.org/genproto v0.0.0-20220204002441-d6cc3cc0770e
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	k8s.io/api v0.20.2
 	k8s.io/apimachinery v0.20.2
